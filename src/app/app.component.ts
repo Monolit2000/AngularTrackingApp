@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { AddItemComponent } from './components/add-item/add-item.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'angular-cra';
+
+  
+
 }
